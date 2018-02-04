@@ -1,0 +1,8 @@
+<phpunit bootstrap="vendor/silverstripe/cms/tests/bootstrap.php" colors="true">
+    <testsuite name="recipe-reporting-tools">
+        <directory>vendor/silverstripe/externallinks/tests</directory>
+        <directory>vendor/silverstripe/reports/tests</directory>
+        <directory>vendor/silverstripe/securityreport/tests</directory>
+        <directory>vendor/silverstripe/sitewidecontent-report/tests</directory>
+    </testsuite>
+</phpunit>
