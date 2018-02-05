@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/silverstripe/recipe-reporting-tools.svg?branch=master)](https://travis-ci.org/silverstripe/recipe-reporting-tools)
 
-This includes the following core SilverStripe and CWP modules:
+This includes the following core SilverStripe modules:
 
  * [silverstripe/recipe-cms](https://github.com/silverstripe/recipe-cms): Recipe containing CMS, versioned, asset-admin, etc
  * [silverstripe/externallinks](https://github.com/silverstripe/silverstripe-externallinks): Module which tracks
