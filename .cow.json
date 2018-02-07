@@ -6,8 +6,7 @@
     "silverstripe"
   ],
   "upgrade-only": [
-    "silverstripe/recipe-cms",
-    "silverstripe/reports"
+    "silverstripe/recipe-cms"
   ],
   "exclude": [
     "silverstripe/recipe-plugin"
