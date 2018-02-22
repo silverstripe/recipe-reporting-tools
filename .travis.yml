@@ -23,5 +23,9 @@ before_script:
   - if [[ $DB == PGSQL ]]; then composer require silverstripe/postgresql:2.0.x-dev --no-update; fi
   - composer install --prefer-source --no-interaction --no-progress --no-suggest --optimize-autoloader --verbose --profile
 
+  # Validate cow schema
+  - composer global require silverstripe/cow ^2
+  - ~/.composer/vendor/bin/cow schema:validate
+
 script:
   - vendor/bin/phpunit --testsuite recipe-reporting-tools
