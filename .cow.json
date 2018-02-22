@@ -1,6 +1,6 @@
 {
   "github-slug": "silverstripe/recipe-reporting-tools",
-  "child-stability-inherit": true,
+  "child-stability-inherit": false,
   "dependency-constraint": "exact",
   "vendors": [
     "silverstripe"
