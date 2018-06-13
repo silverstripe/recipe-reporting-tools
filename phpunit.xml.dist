@@ -4,5 +4,8 @@
         <directory>vendor/silverstripe/reports/tests</directory>
         <directory>vendor/silverstripe/securityreport/tests</directory>
         <directory>vendor/silverstripe/sitewidecontent-report/tests</directory>
+        <directory>vendor/bringyourownideas/silverstripe-maintenance/tests</directory>
+        <directory>vendor/bringyourownideas/silverstripe-composer-update-checker/tests</directory>
+        <directory>vendor/bringyourownideas/silverstripe-composer-security-checker/tests</directory>
     </testsuite>
 </phpunit>
