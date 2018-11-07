@@ -25,7 +25,7 @@ before_script:
 
   # Validate cow schema
   - composer global require silverstripe/cow ^2
-  - ~/.composer/vendor/bin/cow schema:validate
+  - ~/.config/composer/vendor/bin/cow schema:validate
 
 script:
   - vendor/bin/phpunit --testsuite recipe-reporting-tools
