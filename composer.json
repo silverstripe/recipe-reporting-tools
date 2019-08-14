@@ -10,7 +10,7 @@
         "silverstripe/externallinks": "2.0.x-dev",
         "silverstripe/securityreport": "2.1.x-dev",
         "silverstripe/sitewidecontent-report": "3.0.x-dev",
-        "bringyourownideas/silverstripe-maintenance": "2.2.x-dev",
+        "bringyourownideas/silverstripe-maintenance": "2.3.x-dev",
         "bringyourownideas/silverstripe-composer-update-checker": "2.0.x-dev",
         "bringyourownideas/silverstripe-composer-security-checker": "2.0.x-dev"
     },
