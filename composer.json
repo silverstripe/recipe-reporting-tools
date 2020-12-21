@@ -15,7 +15,7 @@
         "bringyourownideas/silverstripe-composer-security-checker": "2.0.x-dev"
     },
     "require-dev": {
-        "phpunit/phpunit": "^5.7"
+        "sminnee/phpunit": "^5.7"
     },
     "extra": {
         "project-files": []
