@@ -1,40 +1,8 @@
-language: php
+version: ~> 1.0
 
-dist: xenial
-
-services:
-  - mysql
-  - postgresql
+import:
+  - silverstripe/silverstripe-travis-shared:config/provision/self-jobs-range.yml
 
 env:
   global:
-    - COMPOSER_ROOT_VERSION=1.x-dev
-
-matrix:
-  include:
-    - php: 7.1
-      env: DB=MYSQL
-    - php: 7.2
-      env: DB=PGSQL
-    - php: 7.3
-      env: DB=MYSQL
-    - php: 7.4
-      env: DB=MYSQL
-
-before_script:
-  - phpenv rehash
-  - phpenv config-rm xdebug.ini
-
-  - composer validate
-  # Fix for running phpunit 5 on php 7.4+
-  - composer require --no-update sminnee/phpunit-mock-objects:^3
-  - if [[ $DB == PGSQL ]]; then composer require silverstripe/postgresql:^2 --no-update; fi
-  - composer require --no-update sminnee/phpunit-mock-objects:^3
-  - composer install --prefer-source --no-interaction --no-progress --no-suggest --optimize-autoloader --verbose --profile
-
-  # Validate cow schema
-  - composer global require silverstripe/cow:^2
-  - ~/.config/composer/vendor/bin/cow schema:validate
-
-script:
-  - vendor/bin/phpunit --testsuite recipe-reporting-tools
+    - PHPUNIT_SUITE="recipe-reporting-tools"
