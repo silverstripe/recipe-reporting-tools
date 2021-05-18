@@ -7,12 +7,12 @@
     "require": {
         "silverstripe/recipe-plugin": "^1",
         "silverstripe/recipe-cms": "^4",
-        "silverstripe/externallinks": "2.1-dev",
-        "silverstripe/securityreport": "2.3-dev",
-        "silverstripe/sitewidecontent-report": "3.1-dev",
-        "bringyourownideas/silverstripe-maintenance": "2.3-dev",
-        "bringyourownideas/silverstripe-composer-update-checker": "2.0-dev",
-        "bringyourownideas/silverstripe-composer-security-checker": "2.0-dev"
+        "silverstripe/externallinks": "2.1.x-dev",
+        "silverstripe/securityreport": "2.3.x-dev",
+        "silverstripe/sitewidecontent-report": "3.1.x-dev",
+        "bringyourownideas/silverstripe-maintenance": "2.3.x-dev",
+        "bringyourownideas/silverstripe-composer-update-checker": "2.0.x-dev",
+        "bringyourownideas/silverstripe-composer-security-checker": "2.0.x-dev"
     },
     "require-dev": {
         "sminnee/phpunit": "^5.7"
