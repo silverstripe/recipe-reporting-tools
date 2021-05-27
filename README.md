@@ -18,8 +18,6 @@ This includes the following core SilverStripe modules:
    of all SilverStripe modules installed in the project
  * [bringyourownideas/silverstripe-composer-update-checker](https://github.com/bringyourownideas/silverstripe-composer-update-checker): 
     Adds columns to the installed modules report indicating newer versions of installed modules that are available
- * [bringyourownideas/silverstripe-composer-security-checker](https://github.com/bringyourownideas/silverstripe-composer-security-checker): 
-    Adds warnings to the installed modules report against any modules that might have reported security vulnerabilities
    
     
 This can be either added to an existing project or used as a project base for creating a basic CWP install.
