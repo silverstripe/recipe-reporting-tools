@@ -11,8 +11,7 @@
         "silverstripe/securityreport": "2.x-dev",
         "silverstripe/sitewidecontent-report": "3.x-dev",
         "bringyourownideas/silverstripe-maintenance": "2.x-dev",
-        "bringyourownideas/silverstripe-composer-update-checker": "2.x-dev",
-        "bringyourownideas/silverstripe-composer-security-checker": "2.x-dev"
+        "bringyourownideas/silverstripe-composer-update-checker": "2.x-dev"
     },
     "require-dev": {
         "sminnee/phpunit": "^5.7"
