@@ -5,6 +5,7 @@
     "homepage": "https://www.silverstripe.org",
     "license": "BSD-3-Clause",
     "require": {
+        "php": "^7.3 || ^8.0",
         "silverstripe/recipe-plugin": "^1",
         "silverstripe/recipe-cms": "4.x-dev",
         "silverstripe/externallinks": "2.x-dev",
@@ -14,7 +15,7 @@
         "bringyourownideas/silverstripe-composer-update-checker": "2.x-dev"
     },
     "require-dev": {
-        "sminnee/phpunit": "^5.7"
+        "phpunit/phpunit": "^9.5"
     },
     "extra": {
         "project-files": []
