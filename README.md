@@ -22,12 +22,10 @@ This includes the following core Silverstripe modules:
     
 This can be either added to an existing project or used as a project base for creating a basic CWP install.
 
-## Get started
+## Installation
 
-You can create a project using Composer:
-
-```
-composer create-project silverstripe/recipe-reporting-tools ./myproject ^1
+```sh
+composer create-project silverstripe/recipe-reporting-tools ./myproject
 ```
 
 ## More information
