@@ -1,7 +1,6 @@
 ## Silverstripe CMS reporting tools recipe
 
 [![CI](https://github.com/silverstripe/recipe-reporting-tools/actions/workflows/ci.yml/badge.svg)](https://github.com/silverstripe/recipe-reporting-tools/actions/workflows/ci.yml)
-[![Silverstripe supported module](https://img.shields.io/badge/silverstripe-supported-0071C4.svg)](https://www.silverstripe.org/software/addons/silverstripe-commercially-supported-module-list/)
 
 This includes the following core Silverstripe modules:
 
